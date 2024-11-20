@@ -10,6 +10,6 @@ For the system, it should be ok to run with any computer that has the environmen
 Hardware requirements: Any realsense camera, recommond D400 series and above; PC
 Software requirements: Necessary Python packages; Visual C++ Library; please use python version lower than 3.10
 
-The light control module should be run first, this is to simulate the light is activated first in any application of OWPT, the safety system is a system that surveillance the operation. If you do not have the serial connected stage light or something else, please just comment the "lc = LightController()" in the main, as the system can also output the text in the command window for indication of the light status.
+The light control module should be run first, this is to simulate the light is activated first in any application of OWPT, the safety system is a system that surveillance the operation. If you do not have the serial connected stage light or something else, please just comment the "lc.controller()" in the main, as the system can also output the text in the command window for indication of the light status.
 
 After running the light control, make sure camera is connected, and run the safety system code.

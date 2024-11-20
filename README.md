@@ -13,3 +13,6 @@ Software requirements: Necessary Python packages; Visual C++ Library; please use
 The light control module should be run first, this is to simulate the light is activated first in any application of OWPT, the safety system is a system that surveillance the operation. If you do not have the serial connected stage light or something else, please just comment the "lc.controller()" in the main, as the system can also output the text in the command window for indication of the light status.
 
 After running the light control, make sure camera is connected, and run the safety system code.
+
+This work is part of the Optical Wireless Power Transmission System, the detail of the OWPT can be view from our laboratory website,
+https://www.first.iir.titech.ac.jp/member/core3.html#miyamoto
